@@ -1,9 +1,13 @@
+# macOS system files
 .DS_Store
-node_modules
-/dist
 
+# Node modules & build output
+node_modules/
+dist/
+dist-ssr/
+coverage/
 
-# local env files
+# Local environment variables
 .env.local
 .env.*.local
 
@@ -13,11 +17,19 @@ yarn-debug.log*
 yarn-error.log*
 pnpm-debug.log*
 
-# Editor directories and files
-.idea
-.vscode
+# IDE & editor configs
+.idea/
+.vscode/
 *.suo
 *.ntvs*
 *.njsproj
 *.sln
 *.sw?
+
+# Personal notes
+notes.txt
+
+# Optional: lockfiles (uncomment if you want to ignore them)
+# package-lock.json
+# yarn.lock
+# pnpm-lock.yaml
